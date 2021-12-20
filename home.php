@@ -37,7 +37,7 @@ if ($podaci->num_rows == 0) {
 
 
     <div class="gornjideo" style="color: black;">
-        <h1>TENISKI KLUB "NOVAK"</h1>
+        <h1>TENISKI KLUB "NOLE"</h1>
     </div>
 
     <div class="row1">
@@ -49,7 +49,7 @@ if ($podaci->num_rows == 0) {
 
         </div>
         <div class="col-md-4">
-            <button id="btn-pretraga" class="btn btn-warning btn-block" style="background-color:  #363636; border: 2px solid #D37506; height:50px; font-size: 18px; border-radius: 28px;"> Pretrazi slobodan teren</button>
+            <button id="btn-pretraga" class="btn btn-warning btn-block" style="background-color:  #363636; border: 2px solid #D37506; height:50px; font-size: 18px; border-radius: 28px;"> Pretrazi teren</button>
             <input type="text" id="myInput" onkeyup="funkcijaZaPretragu()" placeholder="Pronadji broj terena" hidden>
         </div>
     </div>
