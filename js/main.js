@@ -14,6 +14,7 @@ $('#dodajForm').submit(function(){
         type:'post',
         data: serijalizacija
     });
+    /* Unesen komentar */
 
     req.done(function(res, textStatus, jqXHR){
         if(res=="Success"){
